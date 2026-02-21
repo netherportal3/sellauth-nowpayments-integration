@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/admin/auth",
+      "dest": "/api/admin/auth.ts"
+    },
+    {
+      "src": "/api/admin/config",
+      "dest": "/api/admin/config.ts"
+    },
+    {
+      "src": "/api/admin/logs",
+      "dest": "/api/admin/logs.ts"
+    },
+    {
+      "src": "/api/admin/setup",
+      "dest": "/api/admin/setup.ts"
+    },
+    {
+      "src": "/api/admin",
+      "dest": "/api/admin.ts"
+    },
+    {
+      "src": "/api/pay/(.+)",
+      "dest": "/api/pay/[invoiceId].ts?invoiceId=$1"
+    },
+    {
+      "src": "/api/ipn",
+      "dest": "/api/ipn.ts"
+    },
+    {
+      "src": "/api/payment-status",
+      "dest": "/api/payment-status.ts"
+    },
+    {
+      "src": "/api/logs",
+      "dest": "/api/logs.ts"
+    },
+    {
+      "src": "/api/setup",
+      "dest": "/api/setup.ts"
+    }
+  ]
+}

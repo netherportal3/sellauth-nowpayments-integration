@@ -1,0 +1,20 @@
+{
+  "name": "nowpayments-backend",
+  "version": "1.0.0",
+  "description": "SellAuth + NOWPayments crypto payment integration backend",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@vercel/node": "^5.1.5",
+    "typescript": "^5.7.3",
+    "vercel": "^41.4.1"
+  }
+}
