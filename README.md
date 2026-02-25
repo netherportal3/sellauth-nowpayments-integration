@@ -19,7 +19,7 @@ This project lets you accept crypto payments with NOWPayments for SellAuth manua
 
 ## 2) Deploy to Vercel (beginner friendly)
 
-1. Push this repo to your GitHub.
+1. Clone this repo to your GitHub.
 2. In Vercel, click **Add New Project** and import this repo.
 3. On your Vercel project page, click **Storage**.
 4. Click **Create Database**.
