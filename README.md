@@ -53,12 +53,12 @@ Set these required values:
 | `BASE_URL` | Yes | Your Vercel URL (no trailing slash) |
 | `DATABASE_URL` | Yes | Added by Neon connect |
 | `ADMIN_SECRET` | Yes (env-only) | Password for admin endpoints/dashboard |
-| `CUSTOMER_RETURN_URL_TEMPLATE` | No | Use `{sellauth-url}/checkout/{invoiceId}` for most stores. Use a custom URL only if you need custom redirect behavior (`{status}` is optional). |
+| `CUSTOMER_RETURN_URL_TEMPLATE` | No | Use `YOUR-SELLAUTH-STORE-URL/checkout/{invoiceId}` for most stores. Use a custom URL only if you need custom redirect behavior (`{status}` is optional). |
 | `RATE_LIMIT_*` | No | Optional per-endpoint rate limit overrides (see "Rate limits" section below) |
 
-## 4) Configure SellAuth payment method
+## 4) Configure  payment method
 
-In SellAuth, create/edit your manual payment method and set instructions to:
+In , create/edit your manual payment method and set instructions to:
 
 ```text
 Click below to pay with crypto:
@@ -111,7 +111,7 @@ Set a `*_LIMIT` or `*_WINDOW_MS` value to `0` to disable that limiter.
 
 ## 6) Test everything
 
-1. Make a test order in SellAuth
+1. Make a test order in 
 2. Choose your crypto payment method
 3. Open the payment link
 4. Confirm you are redirected to NOWPayments
