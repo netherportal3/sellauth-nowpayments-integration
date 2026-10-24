@@ -2,6 +2,8 @@
 
 This project lets you accept crypto payments with NOWPayments for SellAuth manual checkout.
 
+> **Security update (2026-10-24):** a development dependency (`undici`, GHSA-xjj6-f33q-929c) was updated. Deployed sites were not affected. If you cloned or forked this repo, pull the latest `main` and run `npm ci`.
+>
 > **Security update (2026-09-22):** development dependencies were updated to clear every open npm advisory (see [#1](https://github.com/netherportal3/sellauth-nowpayments-integration/pull/1)). Deployed sites were not affected. If you cloned or forked this repo, pull the latest `main` and run `npm ci`.
 
 ## What this does
