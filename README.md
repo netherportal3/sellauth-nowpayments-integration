@@ -2,6 +2,8 @@
 
 This project lets you accept crypto payments with NOWPayments for SellAuth manual checkout.
 
+> **Security update (2026-11-11):** a development dependency (`brace-expansion`, GHSA-6jwq-xf8q-xcwh) was updated. Deployed sites were not affected. If you cloned or forked this repo, pull the latest `main` and run `npm ci`.
+>
 > **Security update (2026-10-27):** a development dependency (`fast-uri`, GHSA-w74x-v6f9-j3xg and related advisories) was updated. Deployed sites were not affected. If you cloned or forked this repo, pull the latest `main` and run `npm ci`.
 >
 > **Security update (2026-10-24):** a development dependency (`undici`, GHSA-xjj6-f33q-929c) was updated. Deployed sites were not affected. If you cloned or forked this repo, pull the latest `main` and run `npm ci`.
